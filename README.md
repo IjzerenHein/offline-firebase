@@ -33,5 +33,9 @@ Here's an example:
         console.log(snapshot.val());
     }, undefined, undefined, true);
 
-Close your application completely and turn on airplane mode. When you re-open it and run the above, your data will
-still log out because it has been persisted through localStorage.
+Close your application completely and turn on airplane mode. When you re-open it and run the above, your data will still log out because it has been persisted through localStorage.
+
+### Installation
+
+	npm install offline-firebase
+	
